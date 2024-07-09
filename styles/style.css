@@ -82,3 +82,92 @@ nav{
     border-radius: 8px;
     background: #0d1321;
 }
+
+/* why web development section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.why-web{
+    /* width: 946px; */
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    
+
+    
+}
+.section-heading{
+    text-align: center;
+    padding: 0 50px;
+    
+}
+.section.title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 39px;
+    color: #0D1321;
+    
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 48px;
+
+
+}
+/* dreams container  */
+.dream-title{
+    color: rgba(13, 19, 33, 0.7);   
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.dream-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+.learn-btn{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px; 
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+}
+.learn-btn a{
+    text-decoration: none;
+    color: #0D1321;
+    
+}
+.dream-box{
+    padding: 48px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    box-shadow: 3px 6px 50px 3px rgba(0, 0, 0, 0.068);
+    margin-bottom: 32px;
+}
+
+.dream-content{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; */
+    width: 477px;
+    height: 220px;
+    
+}
