@@ -180,20 +180,40 @@ main{
 .youtube-video{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    padding: 32px;
+    
+
+}
+.iframe-border{
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.round {
+    text-align: center;
+    border-radius: 16px !important;
     margin-bottom: 149px;
+    padding: 32px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    
     
 }
 
-/* My curent targets start  */
+
+/* My current targets start  */
 .text-center{
     text-align: center;
+    
 }
 .target-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
+    
 }
 .target-box{
     padding: 40px;
@@ -242,8 +262,7 @@ main{
 }
 /* My current targets end  */
 .need-support{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
-    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -257,6 +276,7 @@ main{
 .need-container{
     padding-bottom: 0;
     width: 1044px;
+    margin: 0 auto;
     /* height: 186px; */
 }   
 .need-title{
@@ -284,6 +304,7 @@ main{
     background: rgb(255, 255, 255);
     padding: 19px 20px 19px 20px;
     width: 548px;
+    /* margin-left: 50px; */
     
     
 }
@@ -295,7 +316,7 @@ main{
     font-weight: 600;
     line-height: 23px;
     color: #0D1321;
-    margin-left: 16px;
+    margin-left: 10px;
 }
 /* main section end  */
 
