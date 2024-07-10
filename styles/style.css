@@ -14,7 +14,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     padding: 38px 166px 35px 150px;
 
 }
@@ -87,16 +86,15 @@ nav{
 main{
     max-width: 1140px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 .why-web{
     /* width: 946px; */
     padding: 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    
-
-    
+    margin-top: 74px;   
+    border: 1px solid black;
+    margin-bottom: 88px;
 }
 .section-heading{
     text-align: center;
@@ -171,3 +169,70 @@ main{
     height: 220px;
     
 }
+/* My inspiration start here */
+.inspiration-content{
+    text-align: center;
+}
+.youtube-video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 149px;
+}
+
+/* My curent targets start  */
+.text-center{
+    text-align: center;
+}
+.target-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.target-box{
+    padding: 40px;
+    box-shadow: 3px 6px 50px 0px rgba(0, 0, 0, 0.144);
+}
+.target-img{
+    margin-bottom: 24px;
+
+}
+.target-title{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    color: #0D1321;
+    margin-bottom: 8px;
+}
+.target-description{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+
+}
+.target-learn-more{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #0D1321;
+}
+#box-1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);;
+}
+#box-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+#box-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.target{
+    margin-bottom: 111px;
+}
+/* My curent targets end  */
