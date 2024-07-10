@@ -175,12 +175,14 @@ main{
 /* My inspiration start here */
 .inspiration-content{
     text-align: center;
+    padding: 0 100px;
 }
 .youtube-video{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding: 32px;
     margin-bottom: 149px;
+    
 }
 
 /* My curent targets start  */
